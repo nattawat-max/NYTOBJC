@@ -52,14 +52,14 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "BE609AB6-708B-4B20-930D-F16DC230C124 - 41788ba9072f0357"
+                  uuid = "BE609AB6-708B-4B20-930D-F16DC230C124 - 1f3a6cffa386a142"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "-[SearchViewController prepareForSegue:sender:]"
                   moduleName = "NYTinOBJC"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nattawatmax/Documents/xcode/NYTinOBJC/NYTinOBJC/SearchView/SearchViewController.m"
+                  urlString = "file:///Users/nattawatmax/Documents/Training/NYTOBJC/NYTinOBJC/NYTinOBJC/SearchView/SearchViewController.m"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "82"
@@ -67,14 +67,14 @@
                   offsetFromSymbolStart = "208">
                </Location>
                <Location
-                  uuid = "BE609AB6-708B-4B20-930D-F16DC230C124 - 41788ba9072f0357"
+                  uuid = "BE609AB6-708B-4B20-930D-F16DC230C124 - 1f3a6cffa386a142"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "-[SearchViewController prepareForSegue:sender:]"
                   moduleName = "NYTinOBJC"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nattawatmax/Documents/xcode/NYTinOBJC/NYTinOBJC/SearchView/SearchViewController.m"
+                  urlString = "file:///Users/nattawatmax/Documents/Training/NYTOBJC/NYTinOBJC/NYTinOBJC/SearchView/SearchViewController.m"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "82"
@@ -164,14 +164,14 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "AC3960E8-115E-4113-B5B9-446F64AE26C8 - 7f231172f3fde9c3"
+                  uuid = "AC3960E8-115E-4113-B5B9-446F64AE26C8 - 190d26e8fb948be1"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "-[DetailViewController websiteButtonPressed:]"
                   moduleName = "NYTinOBJC"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nattawatmax/Documents/xcode/NYTinOBJC/NYTinOBJC/DetailView/DetailViewController.m"
+                  urlString = "file:///Users/nattawatmax/Documents/Training/NYTOBJC/NYTinOBJC/NYTinOBJC/DetailView/DetailViewController.m"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "110"
@@ -179,14 +179,14 @@
                   offsetFromSymbolStart = "188">
                </Location>
                <Location
-                  uuid = "AC3960E8-115E-4113-B5B9-446F64AE26C8 - f0eca74053582fb3"
+                  uuid = "AC3960E8-115E-4113-B5B9-446F64AE26C8 - 96c290da5b314c55"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "__45-[DetailViewController websiteButtonPressed:]_block_invoke"
                   moduleName = "NYTinOBJC"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nattawatmax/Documents/xcode/NYTinOBJC/NYTinOBJC/DetailView/DetailViewController.m"
+                  urlString = "file:///Users/nattawatmax/Documents/Training/NYTOBJC/NYTinOBJC/NYTinOBJC/DetailView/DetailViewController.m"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "111"
@@ -194,6 +194,134 @@
                   offsetFromSymbolStart = "28">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0D3CF502-38CD-46B0-BCEF-E0BDDC3CCAA8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NYTinOBJC/ViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "385"
+            endingLineNumber = "385"
+            landmarkName = "-downloadImage"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "52842C5A-E69E-4DF3-B78F-EE34CD74837B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NYTinOBJC/ViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "382"
+            endingLineNumber = "382"
+            landmarkName = "-downloadImage"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A2CF9B4B-9097-43D9-9304-CD2AEE6DB60E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NYTinOBJC/ViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "240"
+            endingLineNumber = "240"
+            landmarkName = "-collectionView:cellForItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "847F4DF3-A33B-4F96-96E6-D931A70EE243"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NYTinOBJC/ViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "249"
+            endingLineNumber = "249"
+            landmarkName = "-collectionView:cellForItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "41F4A7A1-78F5-4779-8E87-CC347BD8D45D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NYTinOBJC/ViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "264"
+            endingLineNumber = "264"
+            landmarkName = "-collectionView:cellForItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A22F3D14-5230-43BD-8C79-0FE94582B5CD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NYTinOBJC/ViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "241"
+            endingLineNumber = "241"
+            landmarkName = "-collectionView:cellForItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA9999BE-74C0-49DC-9DEC-3E7F5A0A2E39"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NYTinOBJC/ViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "242"
+            endingLineNumber = "242"
+            landmarkName = "-collectionView:cellForItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8EECC0BB-E3F1-43FE-ABE9-17DC123E0C96"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NYTinOBJC/ViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "272"
+            endingLineNumber = "272"
+            landmarkName = "-collectionView:cellForItemAtIndexPath:"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

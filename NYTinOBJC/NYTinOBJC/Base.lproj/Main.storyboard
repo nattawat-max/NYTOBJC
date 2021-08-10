@@ -68,13 +68,18 @@
                                                                 <constraint firstAttribute="trailing" secondItem="ptV-7s-lCu" secondAttribute="trailing" constant="9" id="Ztz-Q2-Z3q"/>
                                                             </constraints>
                                                         </view>
+                                                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="MeL-tn-fGl">
+                                                            <rect key="frame" x="72" y="108.5" width="20" height="20"/>
+                                                        </activityIndicatorView>
                                                     </subviews>
                                                     <constraints>
                                                         <constraint firstItem="Ao4-W6-yVz" firstAttribute="width" secondItem="2Ri-lO-82t" secondAttribute="width" id="Do3-kk-6fa"/>
                                                         <constraint firstAttribute="bottom" secondItem="NIs-02-sN0" secondAttribute="bottom" id="WTf-FF-irB"/>
                                                         <constraint firstItem="Ao4-W6-yVz" firstAttribute="centerY" secondItem="2Ri-lO-82t" secondAttribute="centerY" id="aBq-eV-Qjd"/>
+                                                        <constraint firstItem="MeL-tn-fGl" firstAttribute="centerY" secondItem="2Ri-lO-82t" secondAttribute="centerY" id="boi-AR-hoy"/>
                                                         <constraint firstItem="NIs-02-sN0" firstAttribute="leading" secondItem="2Ri-lO-82t" secondAttribute="leading" id="fef-Qt-On7"/>
                                                         <constraint firstItem="Ao4-W6-yVz" firstAttribute="height" secondItem="2Ri-lO-82t" secondAttribute="height" id="fx4-16-mma"/>
+                                                        <constraint firstItem="MeL-tn-fGl" firstAttribute="centerX" secondItem="2Ri-lO-82t" secondAttribute="centerX" id="jpB-Qc-5Pd"/>
                                                         <constraint firstItem="Ao4-W6-yVz" firstAttribute="centerX" secondItem="2Ri-lO-82t" secondAttribute="centerX" id="kxb-Bn-enE"/>
                                                         <constraint firstAttribute="trailing" secondItem="NIs-02-sN0" secondAttribute="trailing" id="yj4-N6-Zq4"/>
                                                     </constraints>
@@ -82,9 +87,9 @@
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <size key="customSize" width="164" height="237"/>
                                                 <connections>
-                                                    <outlet property="bookColIndicator" destination="slm-cF-sZD" id="Knv-fy-aCk"/>
                                                     <outlet property="bookColLabel" destination="ptV-7s-lCu" id="z3f-9E-NtQ"/>
                                                     <outlet property="bookColPicture" destination="Ao4-W6-yVz" id="dLd-Fo-g2D"/>
+                                                    <outlet property="cellActIndicator" destination="MeL-tn-fGl" id="Mbq-Dg-A7X"/>
                                                 </connections>
                                             </collectionViewCell>
                                         </cells>

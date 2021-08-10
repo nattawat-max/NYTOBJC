@@ -32,6 +32,7 @@
 @property (strong, nonatomic) NSArray<NSString* > *imageUrlCache;
 @property (nonatomic) CGFloat screenWidth;
 @property (nonatomic, strong) BookItem *selectedBook;
+@property (nonatomic, assign) BOOL isLoading;
 
 //
 
@@ -40,6 +41,7 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    self.isLoading = YES;
     [super viewDidLoad];
     [self setupNavBar];
     [self configureView];
@@ -64,14 +66,8 @@
 
 - (void)getBookData {
     [self fetchBookUsingJSON];
-    
-//    if(self.bookListData){
-//        [self.listCollectionView reloadData];
-//    }
-//    else{
-//        [self getBookData];
-//    }
 }
+    
 
 - (void)setupNavBar
 {
@@ -184,7 +180,7 @@
     cell.layer.shouldRasterize = YES;
     cell.layer.rasterizationScale = [UIScreen mainScreen].scale;
     
-    [cell.bookColIndicator startAnimating];
+//    [cell.cellActIndicator startAnimating];
     cell.bookColPicture.image = nil;
 
     cell.contentView.layer.cornerRadius = 8.0;
@@ -210,15 +206,15 @@
     // set Label
     cell.bookColLabel.text = bookTitle;
     
-//     set Picture
+
 //
 //
 
     
-    NSData * imageData = NSData.new;
-    imageData = [self.imageDataCache objectAtIndex:indexPath.row];
-    cell.bookColPicture.image = [UIImage imageWithData: imageData];
-    [cell.bookColIndicator startAnimating];
+//    NSData * imageData = NSData.new;
+//    imageData = [self.imageDataCache objectAtIndex:indexPath.row];
+//    cell.bookColPicture.image = [UIImage imageWithData: imageData];
+//    [cell.bookColIndicator startAnimating];
 
     
     //    NSString *imgUrl;
@@ -234,8 +230,43 @@
     //    imageData = [[NSData alloc] initWithContentsOfURL: [NSURL URLWithString: imgUrl]];
     //    cell.bookColPicture.image = [UIImage imageWithData: imageData];
     
-    // set view
+    //     set Picture
+    
+    NSData * imageData = NSData.new;
+    
+    [cell.cellActIndicator startAnimating];
+    cell.cellActIndicator.hidden = NO;
+    
+    if(self.isLoading == YES){
+        self.isLoading = NO;
+        
+        imageData = [self.imageDataCache objectAtIndex:indexPath.row];
+        cell.bookColPicture.image = [UIImage imageWithData: imageData];
+        
+        dispatch_async(dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^(void){
+            //Background Threa
+       
+            [self downloadImage];
 
+        });
+    }
+    
+    if(self.imageDataCache == nil){
+        [cell.cellActIndicator startAnimating];
+        cell.cellActIndicator.hidden = NO;
+    }else{
+        [cell.cellActIndicator stopAnimating];
+        cell.cellActIndicator.hidden = YES;
+    }
+        
+
+    
+    imageData = [self.imageDataCache objectAtIndex:indexPath.row];
+    cell.bookColPicture.image = [UIImage imageWithData: imageData];
+    
+
+    
+    //set view
     [self.acIndicator stopAnimating];
     self.acIndicator.hidden = YES;
     self.searchBtn.hidden = NO;
@@ -321,8 +352,6 @@
                 bookList.data = bookArray;
                 self.bookListData = bookList;
                 
-                [self downloadImage];
-                
                 dispatch_async(dispatch_get_main_queue(), ^{
                     [self.listCollectionView reloadData];
                 });
@@ -351,6 +380,11 @@
     }
     
     self.imageDataCache = imgArray;
+    
+    dispatch_async(dispatch_get_main_queue(), ^(void){
+        [self.listCollectionView reloadData];
+        
+    });
     
 }
 

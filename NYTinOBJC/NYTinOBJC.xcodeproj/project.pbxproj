@@ -18,15 +18,13 @@
 		2C120FA726BC09BD00EA440C /* NYTinOBJCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C120FA626BC09BD00EA440C /* NYTinOBJCUITests.m */; };
 		2C120FB826BC0B2200EA440C /* ListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C120FB726BC0B2200EA440C /* ListCollectionViewCell.m */; };
 		2C120FBE26BC138C00EA440C /* BookList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C120FBD26BC138C00EA440C /* BookList.m */; };
-		2C120FC126BCDCFC00EA440C /* Chomsky.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2C120FC026BCDCFC00EA440C /* Chomsky.otf */; };
-		2C120FC226BCDCFC00EA440C /* Chomsky.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2C120FC026BCDCFC00EA440C /* Chomsky.otf */; };
-		2C120FC326BCDCFC00EA440C /* Chomsky.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2C120FC026BCDCFC00EA440C /* Chomsky.otf */; };
 		2C120FC626BD40BD00EA440C /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C120FC526BD40BD00EA440C /* SearchViewController.m */; };
 		2C120FCC26BFE16F00EA440C /* SearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C120FCB26BFE16F00EA440C /* SearchTableViewCell.m */; };
 		2C62B24C26C02A6A00D5DDBE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C62B24B26C02A6A00D5DDBE /* DetailViewController.m */; };
 		2C62B24E26C030EA00D5DDBE /* Average-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C62B24D26C030EA00D5DDBE /* Average-Regular.ttf */; };
 		2C62B24F26C030EA00D5DDBE /* Average-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C62B24D26C030EA00D5DDBE /* Average-Regular.ttf */; };
 		2C62B25026C030EA00D5DDBE /* Average-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C62B24D26C030EA00D5DDBE /* Average-Regular.ttf */; };
+		2C62B25626C244C100D5DDBE /* Chomsky.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2C62B25526C244C100D5DDBE /* Chomsky.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +67,6 @@
 		2C120FB726BC0B2200EA440C /* ListCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListCollectionViewCell.m; sourceTree = "<group>"; };
 		2C120FBC26BC138C00EA440C /* BookList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookList.h; sourceTree = "<group>"; };
 		2C120FBD26BC138C00EA440C /* BookList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookList.m; sourceTree = "<group>"; };
-		2C120FC026BCDCFC00EA440C /* Chomsky.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Chomsky.otf; path = ../../../../../Downloads/chomsky/Chomsky.otf; sourceTree = "<group>"; };
 		2C120FC426BD40BD00EA440C /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		2C120FC526BD40BD00EA440C /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		2C120FCA26BFE16F00EA440C /* SearchTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchTableViewCell.h; sourceTree = "<group>"; };
@@ -77,6 +74,7 @@
 		2C62B24A26C02A6A00D5DDBE /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		2C62B24B26C02A6A00D5DDBE /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		2C62B24D26C030EA00D5DDBE /* Average-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Average-Regular.ttf"; sourceTree = "<group>"; };
+		2C62B25526C244C100D5DDBE /* Chomsky.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chomsky.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +136,6 @@
 				2C62B24926C02A2C00D5DDBE /* DetailView */,
 				2C120FB526BC09E100EA440C /* Model */,
 				2C120FB426BC09CF00EA440C /* Views */,
-				2C62B25126C0669F00D5DDBE /* Utility */,
 				2C120FBF26BCDC5A00EA440C /* Font */,
 				2C120F8B26BC09BD00EA440C /* Assets.xcassets */,
 				2C120F8D26BC09BD00EA440C /* LaunchScreen.storyboard */,
@@ -189,7 +186,7 @@
 		2C120FBF26BCDC5A00EA440C /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				2C120FC026BCDCFC00EA440C /* Chomsky.otf */,
+				2C62B25526C244C100D5DDBE /* Chomsky.otf */,
 				2C62B24D26C030EA00D5DDBE /* Average-Regular.ttf */,
 			);
 			path = Font;
@@ -211,13 +208,6 @@
 				2C62B24B26C02A6A00D5DDBE /* DetailViewController.m */,
 			);
 			path = DetailView;
-			sourceTree = "<group>";
-		};
-		2C62B25126C0669F00D5DDBE /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,10 +312,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C120FC126BCDCFC00EA440C /* Chomsky.otf in Resources */,
 				2C62B24E26C030EA00D5DDBE /* Average-Regular.ttf in Resources */,
 				2C120F8F26BC09BD00EA440C /* LaunchScreen.storyboard in Resources */,
 				2C120F8C26BC09BD00EA440C /* Assets.xcassets in Resources */,
+				2C62B25626C244C100D5DDBE /* Chomsky.otf in Resources */,
 				2C120F8A26BC09BC00EA440C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,7 +324,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C120FC226BCDCFC00EA440C /* Chomsky.otf in Resources */,
 				2C62B24F26C030EA00D5DDBE /* Average-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,7 +332,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C120FC326BCDCFC00EA440C /* Chomsky.otf in Resources */,
 				2C62B25026C030EA00D5DDBE /* Average-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -536,6 +524,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQB35T3HQ2;
 				INFOPLIST_FILE = NYTinOBJC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -553,6 +542,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQB35T3HQ2;
 				INFOPLIST_FILE = NYTinOBJC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
