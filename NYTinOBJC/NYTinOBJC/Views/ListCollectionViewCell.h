@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (weak, nonatomic) IBOutlet UILabel *bookColLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *bookColPicture;
-@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *bookColIndicator;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *cellActIndicator;
 
 
 @end
